@@ -1,14 +1,19 @@
-'use strict';
+"use strict";
+// initialize material design js
+$.material.init();
 
-// Declare app level module which depends on views, and core components
-angular.module('myApp', [
-  'ngRoute',
-  'myApp.view1',
-  'myApp.view2',
-  'myApp.version'
-]).
-config(['$locationProvider', '$routeProvider', function($locationProvider, $routeProvider) {
-  $locationProvider.hashPrefix('!');
+(function () {
+    angular.module('ngFit', [
+        'ngRoute',
+        'ngFit.main',
+        'ngFit.about',
+        'ngFit.contact'
+    ])
+        .config(['$routeProvider', ngFitConfig]);
 
-  $routeProvider.otherwise({redirectTo: '/view1'});
-}]);
+    function ngFitConfig($routeProvider) {
+        $routeProvider
+            .otherwise({templateUrl: 'app/404.html'});
+    }
+
+})();

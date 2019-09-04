@@ -11,12 +11,12 @@ var NM = './node_modules/';
 gulp.task('js', function() {
   gulp.src('builds/development/app/**/*.js')
     .pipe(concat('app.js'))
-    .pipe(gulp.dest('builds/dist/app/'))
+    .pipe(gulp.dest('builds/dist/app/'));
 });
 
 gulp.task('html', function() {
   gulp.src('builds/development/**/*.html')
-    .pipe(gulp.dest('builds/dist/'))
+    .pipe(gulp.dest('builds/dist/'));
 });
 
 gulp.task('sass', function () {

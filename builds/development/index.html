@@ -4,31 +4,17 @@
   <meta charset="utf-8">
   <title>My First AngularJS App - ngFit</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-    link rel="stylesheet" href="css/style.min.css">
+    <link rel="stylesheet" href="css/style.min.css">
 </head>
 <body>
-    <div class="container">
-        <h1>This is our feature ngFit App</h1>
-        <div class="row">
-            <div class="col-xs-3">
-                <input type="text" class="form-control col-sm-3" ng-model="myName" placeholder="Put your name"/>
-            </div>
-        </div>
-        <div>
-            This is me name: {{myName}}
-        </div>
-        <p>
-            <a href="javascript:void(0)" class="btn btn-primary"><i class="mdi-action-account-balance-wallet"></i> Primary</a>
-            <a href="javascript:void(0)" class="btn btn-success"><i class="mdi-action-lock"></i> Success</a>
-            <a href="javascript:void(0)" class="btn btn-info"><i class="mdi-action-lock"></i> Info</a>
-        </p>
-    </div>
-    <!-- Others JS Files -->
-
+    <div ng-include="'app/components/navbar/navbar.html'"></div>
+    <div ng-view class="container"></div>
+    <div ng-include="'app/components/navbar/login.html'"></div>
   <!-- In production use:
   <script src="//ajax.googleapis.com/ajax/libs/angularjs/x.x.x/angular.min.js"></script>
   -->
     <script src="libs/jquery/jquery.js"></script>
+    <script src="libs/bootstrap/js/bootstrap.js"></script>
     <script src="libs/bootstrap-material-design/js/material.js"></script>
     <script src="libs/bootstrap-material-design/js/ripples.js"></script>
     <!-- AngularJs vDependencies -->
