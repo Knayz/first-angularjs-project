@@ -67,10 +67,10 @@ angular-cookies@^1.7.5:
   resolved "https://registry.yarnpkg.com/angular-cookies/-/angular-cookies-1.7.8.tgz#c674dcfd37168e3d7def6bed165a38f75f96dbc9"
   integrity sha512-oS2X8XLYyLrwSBUKmcGkHxphwTtAEdi3eriSwMX/WUl5D6fRZ4EcBY4DaHN+tYDnzJ1i2lFa82/oq0kTKxZmyg==
 
-angular-i18n@^^1.7.5:
-  version "1.7.8"
-  resolved "https://registry.yarnpkg.com/angular-i18n/-/angular-i18n-1.7.8.tgz#b341165dd7027720610fd456ea0d3355616fc0a8"
-  integrity sha512-H1fV3/2fL85fEMxbZrpgdqT2N686pt0keXBxNBFfgadnGWvNABzEzJDZnN/tCQKtxL4WIcnRYfVpY+nUf6RoFw==
+angular-i18n@^1.7.5:
+  version "1.7.9"
+  resolved "https://registry.yarnpkg.com/angular-i18n/-/angular-i18n-1.7.9.tgz#3ecdfd6ef1cb1c5eec4658d64a2fdb402e1d2578"
+  integrity sha512-5woHq1BC0r9KOAoEoCeYt6IKfpLXhxzOwkI/wvukuDHuGGyPU0tapZSdUXihFmQz1nHeiNpspVbkYWsM586p0Q==
 
 angular-loader@^1.7.5:
   version "1.7.8"
@@ -2048,9 +2048,9 @@ http-signature@~1.2.0:
     sshpk "^1.7.0"
 
 https-proxy-agent@^2.2.1:
-  version "2.2.2"
-  resolved "https://registry.yarnpkg.com/https-proxy-agent/-/https-proxy-agent-2.2.2.tgz#271ea8e90f836ac9f119daccd39c19ff7dfb0793"
-  integrity sha512-c8Ndjc9Bkpfx/vCJueCPy0jlP4ccCCSNDp8xwCZzPjKJUm+B+u9WX2x98Qx4n1PiMNTWo3D7KK5ifNV/yJyRzg==
+  version "2.2.4"
+  resolved "https://registry.yarnpkg.com/https-proxy-agent/-/https-proxy-agent-2.2.4.tgz#4ee7a737abd92678a293d9b34a1af4d0d08c787b"
+  integrity sha512-OmvfoQ53WLjtA9HeYP9RNrWMJzzAz1JGaSFr1nijg0PVR1JaD/xbJq1mdEIIlxGpXp9eSe/O2LgU9DJmTPd0Eg==
   dependencies:
     agent-base "^4.3.0"
     debug "^3.1.0"
