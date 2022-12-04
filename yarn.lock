@@ -67,10 +67,10 @@ angular-cookies@^1.7.5:
   resolved "https://registry.yarnpkg.com/angular-cookies/-/angular-cookies-1.7.8.tgz#c674dcfd37168e3d7def6bed165a38f75f96dbc9"
   integrity sha512-oS2X8XLYyLrwSBUKmcGkHxphwTtAEdi3eriSwMX/WUl5D6fRZ4EcBY4DaHN+tYDnzJ1i2lFa82/oq0kTKxZmyg==
 
-angular-i18n@^^1.7.5:
-  version "1.7.8"
-  resolved "https://registry.yarnpkg.com/angular-i18n/-/angular-i18n-1.7.8.tgz#b341165dd7027720610fd456ea0d3355616fc0a8"
-  integrity sha512-H1fV3/2fL85fEMxbZrpgdqT2N686pt0keXBxNBFfgadnGWvNABzEzJDZnN/tCQKtxL4WIcnRYfVpY+nUf6RoFw==
+angular-i18n@^1.7.5:
+  version "1.8.3"
+  resolved "https://registry.yarnpkg.com/angular-i18n/-/angular-i18n-1.8.3.tgz#15052b19a6c11de045b7d762d743731059e99373"
+  integrity sha512-TWJXIRsq7Qkgyms5dHIgG3s2swn2YKGwJzrIC8u59P9BWV3+gorNhgXCR6nqutApldz7jGBmTNjMgpnF32CIVg==
 
 angular-loader@^1.7.5:
   version "1.7.8"
@@ -967,9 +967,9 @@ decamelize@^1.1.1, decamelize@^1.1.2:
   integrity sha1-9lNNFRSCabIDUue+4m9QH5oZEpA=
 
 decode-uri-component@^0.2.0:
-  version "0.2.0"
-  resolved "https://registry.yarnpkg.com/decode-uri-component/-/decode-uri-component-0.2.0.tgz#eb3913333458775cb84cd1a1fae062106bb87545"
-  integrity sha1-6zkTMzRYd1y4TNGh+uBiEGu4dUU=
+  version "0.2.2"
+  resolved "https://registry.yarnpkg.com/decode-uri-component/-/decode-uri-component-0.2.2.tgz#e69dbe25d37941171dd540e024c444cd5188e1e9"
+  integrity sha512-FqUYQ+8o158GyGTrMFJms9qh3CqTKvAqgqsTnkLI8sKu0028orqBhxNMFkFen0zGyg6epACD32pjVk58ngIErQ==
 
 deep-extend@^0.6.0:
   version "0.6.0"
